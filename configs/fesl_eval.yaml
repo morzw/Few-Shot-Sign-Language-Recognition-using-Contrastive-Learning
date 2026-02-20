@@ -1,0 +1,14 @@
+fesl_root: "datasets/fesl"
+pretrained_model_path: "C:/Users/HofmanO/VSCode projects/slr_26/model_weights/bi_lstm/model_weights.hdf5"
+output_root: "artifacts/fesl_eval"
+extraction_condition: null
+k: 5
+sizes:
+  - [1, 9]
+  - [3, 7]
+  - [5, 5]
+  - [7, 3]
+  - [9, 1]
+seed: 42
+run_name: "bi_lstm_fold1_pretrained"
+

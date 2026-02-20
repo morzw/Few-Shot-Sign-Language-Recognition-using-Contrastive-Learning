@@ -1,0 +1,14 @@
+dataset_root: "datasets/mesl"
+output_root: "artifacts/mesl_train"
+model_name: "gru"
+extraction_condition: null
+k_folds: 10
+epochs: 200
+batch_size: 256
+validation_split: 0.2
+learning_rate: 0.0001
+lr_factor: 0.2
+lr_patience: 5
+early_stopping_patience: 22
+seed: 42
+k_eval: 3

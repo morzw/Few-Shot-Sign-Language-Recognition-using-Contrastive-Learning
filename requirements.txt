@@ -1,0 +1,14 @@
+imageio
+gdown
+keras==2.14.0
+matplotlib
+numpy<2
+pandas
+pillow
+pyyaml
+scikit-learn
+scipy
+seaborn
+tensorflow==2.14.1
+tensorflow-addons==0.22.0
+tqdm
